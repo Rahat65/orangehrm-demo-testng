@@ -1,5 +1,10 @@
+package testrunner;
+
+import config.Setup;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import pages.DashboardPage;
+import pages.LoginPage;
 
 public class DashboardTestRunner extends Setup {
     @BeforeTest
@@ -10,6 +15,6 @@ public class DashboardTestRunner extends Setup {
     @Test(priority = 1)
     public void createUser(){
         DashboardPage dashboardPage = new DashboardPage(driver);
-        dashboardPage.createUser("Test", "User","testuser100","123456ab.");
+        dashboardPage.createUser("Test", "User","testuser110","P@ssword123");
     }
 }
