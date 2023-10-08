@@ -1,21 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!--<!DOCTYPE suite SYSTEM "">-->
 <suite name = "Orange HRM portal automation">
-    <test name ="Create Admin">
+    <test name ="Admin Login">
         <classes>
-            <class name ="testrunner.DashboardTestRunner">
-
-            </class>
-"
-        </classes>
-    </test>
-    <test name="Login new User">
-        <classes>
-            <class name = "testrunner.UserLoginTestRunner">
+            <class name ="testrunner.LoginTestRunner">
 
             </class>
         </classes>
     </test>
+<!--    <test name ="Create Admin">-->
+<!--        <classes>-->
+<!--            <class name ="testrunner.DashboardTestRunner">-->
+
+<!--            </class>-->
+<!--"-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test name="Login new User">-->
+<!--        <classes>-->
+<!--            <class name = "testrunner.UserLoginTestRunner">-->
+
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
 
 
 </suite>

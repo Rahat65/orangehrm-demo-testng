@@ -1,1 +1,50 @@
-[{"firstName":"Test","password":"P@ssword123","lirstName":"User","username":"Testuser123"},{"firstName":"Test","password":"P@ssword123","lirstName":"User","username":"Testuser123"},{"firstName":"Test","password":"P@ssword123","lirstName":"User","username":"Testuser123"},{"firstName":"Inell","lastName":"Jaskolski","password":"e355tklruhrt","username":"logan.kihn"},{"firstName":"Alfreda","lastName":"Lakin","password":"wge9zxml9186e","username":"dee.hyatt"},{"firstName":"Clementina","lastName":"Kunde","password":"ov1fy0pemg","username":"fumiko.labadie"}]
+[
+  {
+    "firstName": "Admin",
+    "lastName": "last",
+    "password": "admin123",
+    "username": "admin"
+  },
+  {
+    "firstName": "Test",
+    "password": "P@ssword123",
+    "lirstName": "User",
+    "username": "Testuser123"
+  },
+  {
+    "firstName": "Test",
+    "password": "P@ssword123",
+    "lirstName": "User",
+    "username": "Testuser123"
+  },
+  {
+    "firstName": "Test",
+    "password": "P@ssword123",
+    "lirstName": "User",
+    "username": "Testuser123"
+  },
+  {
+    "firstName": "Inell",
+    "lastName": "Jaskolski",
+    "password": "e355tklruhrt",
+    "username": "logan.kihn"
+  },
+  {
+    "firstName": "Alfreda",
+    "lastName": "Lakin",
+    "password": "wge9zxml9186e",
+    "username": "dee.hyatt"
+  },
+  {
+    "firstName": "Clementina",
+    "lastName": "Kunde",
+    "password": "ov1fy0pemg",
+    "username": "fumiko.labadie"
+  },
+  {
+    "firstName": "Aida",
+    "lastName": "Lubowitz",
+    "password": "iqu03v2c4e",
+    "username": "kathleen.pfannerstill"
+  }
+]
