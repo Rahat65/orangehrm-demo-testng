@@ -10,7 +10,7 @@ import java.util.List;
 
 public class DashboardPage {
     @FindBy(className = "oxd-main-menu-item--name")
-    List <WebElement> menuItems;
+    public List <WebElement> menuItems;
     @FindBy(className = "oxd-button")
     List<WebElement> buttons;
     @FindBy(className = "oxd-input")
@@ -23,7 +23,7 @@ public class DashboardPage {
     }
 
     public void createUser(EmployeeModel model){
-        menuItems.get(1).click(); //click PIM
+//        menuItems.get(1).click(); //click PIM
         buttons.get(2).click();
         fromTextFields.get(1).sendKeys(model.getFirstname());
         fromTextFields.get(3).sendKeys(model.getLastname());

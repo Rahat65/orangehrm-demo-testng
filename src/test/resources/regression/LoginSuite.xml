@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--<!DOCTYPE suite SYSTEM "">-->
+<suite name = "Orange HRM portal automation">
+    <test name ="Admin Login">
+        <classes>
+            <class name ="testrunner.LoginTestRunner">
+
+            </class>
+        </classes>
+    </test>
+    <test name="Login new User">
+        <classes>
+            <class name = "testrunner.UserLoginTestRunner">
+
+            </class>
+        </classes>
+    </test>
+
+
+</suite>

@@ -9,7 +9,7 @@ import java.time.Duration;
 
 public class Setup {
     public WebDriver driver;
-    @BeforeTest
+    @BeforeTest(groups = "smoke")
     public void setup(){
         driver = new ChromeDriver();
         driver.manage().window().maximize();
@@ -17,8 +17,8 @@ public class Setup {
         driver.get("https://opensource-demo.orangehrmlive.com/");
     }
 
-    @AfterTest
+    @AfterTest(groups = "smoke")
     public void quitDriver(){
-        //driver.quit();
+        driver.quit();
     }
 }
