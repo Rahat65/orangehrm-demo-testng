@@ -1,8 +1,6 @@
-.idea
 .gradle
 gradle
+.idea
 build
-.name
-gradle.xml
-misc.xml
-vcs.xml
+allure-report
+allure-results
